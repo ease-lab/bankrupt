@@ -24,10 +24,10 @@ for all our experiments.
 
 2. Install dependencies and load modules on all the machines:
 ```
-./install load modules.sh
+./install_load_modules.sh
 ```
 
-3. Install distbenchr (we provide a copy in this repository) on intermediary. 
+3. Install distbenchr (we provide a copy in this repository) on the intermediary. 
 This is the machine from which one will drive the proof-of-concept experiment. 
 [Source](https://github.com/marioskogias/distbenchr)
 
@@ -38,6 +38,6 @@ This is the machine from which one will drive the proof-of-concept experiment.
 6. Set channel parameters in `driver.py`, namely num_sender_qps, num_sender_requests_per_qp,
 num_receiver_qps, intermediary_machine, num_sender_reps, and results_file.
 
-7. Set the IP addresses of all the three machines, and the path to the tarball
-on intermediary in `fabfile.py`.
+7. Set the IP addresses of all three machines, and the path to the code
+on the intermediary in `fabfile.py`.
 
