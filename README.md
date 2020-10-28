@@ -7,7 +7,7 @@ The sender software performs the latency modulation that the receiver
 software can detect and decode by issuing periodic probe packets to 
 the intermediary node.
 
-The [full paper](https://ease-lab.github.io/ease_website/pubs/BANKRUPT_WOOT20.pdf) by Ustiugov, Petrov, Katebzadeh, and Grot will be published 
+The [full paper](https://ease-lab.github.io/ease_website/pubs/BANKRUPT_WOOT20.pdf) by Ustiugov, Petrov, Katebzadeh, and Grot is published 
 at the USENIX Workshop on Offensive Technologies (WOOT) co-located with USENIX 
 Security Symposium 2020.
 
